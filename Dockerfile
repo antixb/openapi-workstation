@@ -1,6 +1,6 @@
 # Используем Alpine Linux 3.26 как базовый образ
 # Это минималистичный и безопасный дистрибутив
-FROM alpine:3.26
+FROM alpine:3.19
 
 # Устанавливаем метаданные для образа
 LABEL maintainer="your-email@example.com"
