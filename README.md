@@ -13,3 +13,5 @@ openapi-workstation/
     └── server.js
 
     
+## Version 1.0.0
+- Initial release with basic OpenAPI functionality
