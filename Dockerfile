@@ -52,7 +52,7 @@ RUN chmod +x /entrypoint.sh
 # Скачиваем пример OpenAPI спецификации (PetStore)
 # Используем стандартный пример от OpenAPI Initiative
 RUN wget -O /app/openapi.yaml \
-    https://raw.githubusercontent.com/OAI/OpenAPI-Specification/main/examples/v3.0/petstore-expanded.yaml
+    https://raw.githubusercontent.com/swagger-api/swagger-petstore/master/src/main/resources/openapi.yaml
 
 # Указываем точку входа - скрипт, который запустится при старте контейнера
 ENTRYPOINT ["/entrypoint.sh"]
